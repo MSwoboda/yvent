@@ -2,7 +2,7 @@
  
 ***Disclaimer:** Y-Vent is not a medical device. Y-Vent must not replace FDA/CE-mark ventilation support. Y-Vent is an experimental device which should only be considered in emergency scenarios as an alternative to death due to equipment shortage.*
 
-![YVENT](../yvent/blob/master/images/LRV_noBG.png "Y-Vent Inside")
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/noBG.png?raw=true "Y-Vent Inside")
 
 ## Summary
 
