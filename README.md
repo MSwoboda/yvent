@@ -10,29 +10,32 @@ Y-Vent is a pressure-triggered, 3D printable, emergency ventilator. The device h
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/noBG.png?raw=true "Y-Vent Inside")
 
-
-### Features:
+### Features
 - Adjustable PIP pressure of 0-50 [cmH2O] 
 - PEEP (0-20[cmH2O]) (w/ PEEP valve)
 - Operating supply 20-140 [cmH2O] pressure source (air regulator or blower)  
 - can be actuated with patient breathing (no risk of asynchrony)
 - Regulated inhale/exhale phase (I/E time, I/E ratio can be adjusted by modifying circuit compliance, resistance or by adding a controlled air leak)
 
-### Risks:
+### Risks
 
-The device is a simple pneumatic oscillator triggered by pressure. It pumps air in to a set threshold, reverses flow, pumps air out to a set threshold and resets. It cannot deliver a set volume of air, trigger alarms, display measurements, clear mucus, or perform many other critical functions of modern-day ventilators. It is a piece of plastic.
+The device is a simple pneumatic oscillator triggered by pressure. It pumps air in to a set threshold, reverses flow, pumps air out to a set threshold and resets. It cannot deliver a set volume of air, trigger alarms, display measurements, clear mucus, or perform many other critical functions of modern-day ventilators.
 
-### Failure Modes:
+### Clinical Considerations
 
-Y-Vent is extremely reliable if:
+
+
+### Failure Modes
+
+Y-Vent is reliable if:
 1) Dimensional accuracy of the inlet and channel wedge is maintained
 2) Seal of all chambers of the device is maintained
 3) Air flow through the device is greater than leaks in patient circuit
-4) Connected to a circuit with physiological compliance
 
-Violation of point 1) will change the pressure thersholds and pneumatic behavior of the circuit.
-Violation of points 2) and 3) will result in no actuation 
-Violation of point 4) will result in high frequency oscillation
+Y-Vent can fail in the following way:
+- Violation of point 1) will change the pressure thersholds and pneumatic behavior of the circuit.
+- Violation of points 2) and 3) will result in no actuation 
+- Violation of point 1) may result in high frequency oscillation
 
 ## Theory of Operation
 
@@ -41,9 +44,36 @@ When pressure is applied to the input terminal of the Y-Vent, the air flow strea
 
 ## Performance
 
+### Testing Setup
+
+
+### Markforged 3D Printed Version [Onyx No Fiber Filament]
+
+
+
+
+
+### Prusa MK3 [Hatchbox PLA Gray]
+
+
+
 
 ## Components and Modules
 
+### Main Body
+
+
+### Cover Plate
+
+
+### PEEP Adapter
+
+
+## Manufacturing & Assembly
+
+
+
+## Validation
 
 
 ## Literature
