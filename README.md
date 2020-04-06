@@ -21,9 +21,6 @@ Y-Vent is a pressure-triggered, 3D printable, emergency ventilator. The device h
 
 The device is a simple pneumatic oscillator triggered by pressure. It pumps air in to a set threshold, reverses flow, pumps air out to a set threshold and resets. It cannot deliver a set volume of air, trigger alarms, display measurements, clear mucus, or perform many other critical functions of modern-day ventilators.
 
-### Clinical Considerations
-
-
 
 ### Failure Modes
 
@@ -33,7 +30,7 @@ Y-Vent is reliable if:
 3) Air flow through the device is greater than leaks in patient circuit
 
 Y-Vent can fail in the following way:
-- Violation of point 1) will change the pressure thersholds and pneumatic behavior of the circuit.
+- Violation of point 1) will change the pressure thresholds and pneumatic behavior of the circuit.
 - Violation of points 2) and 3) will result in no actuation 
 - Violation of point 1) may result in high frequency oscillation
 
@@ -61,13 +58,13 @@ When pressure is applied to the input terminal of the Y-Vent, the air flow strea
 ## Components and Modules
 
 ### Main Body
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/body.png?raw=true "Y-Vent Inside")
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/mainbody.png?raw=true "Y-Vent Inside")
+The main functional component 
 ### Cover Plate
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/cover.png?raw=true "Y-Vent Inside")
 
 ### PEEP Adapter
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/adapter.png?raw=true "Y-Vent Inside")
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/peep.png?raw=true "Y-Vent Inside")
 
 ## Manufacturing & Assembly
 
