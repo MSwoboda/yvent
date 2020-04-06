@@ -24,15 +24,15 @@ The device is a simple pneumatic oscillator triggered by pressure. It pumps air 
 
 ### Failure Modes
 
-Y-Vent is reliable if:
+Y-Vent is reliable if the following requirements are satisfied:
 1) Dimensional accuracy of the inlet and channel wedge is maintained
 2) Seal of all chambers of the device is maintained
 3) Air flow through the device is greater than leaks in patient circuit
 
 Y-Vent can fail in the following way:
-- Violation of point 1) will change the pressure thresholds and pneumatic behavior of the circuit.
-- Violation of points 2) and 3) will result in no actuation 
-- Violation of point 1) may result in high frequency oscillation
+- Violation of requirement 1 will change the pressure thresholds and pneumatic behavior of the circuit.
+- Violation of requirement 1 may result in high frequency oscillation
+- Violation of requirement 2 & 3 will result in no actuation 
 
 ## Theory of Operation
 
@@ -78,59 +78,96 @@ PEEP adapter theads into the main body vent and provides one 22mm and one 33mm p
 
 This method creates a robust seal between the main body and cover using a medical grade silicone rubber. This is the preferred method of sealing the part.
 
-Tools:
+#### Tools
 - Spatula
 - Q-Tip
 - Medical-grade Silicone Adhesive 
 - Paper towel
 
-Instructions:
+#### Instructions
+
+1) Remove supports from 3D printed parts and prepare tools. 
 
 
-
-1) Remove supports from 3D printed parts.
-
-![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.jpg?raw=true "Y-Vent Inside")
 
 
-
-2) 
-
-![Step2](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+2) Add blob of adhesive to the smooth side of cover (side without writing). The amout of adhesive should be enough to create a thin (0.2-1mm) layer.
 
 
-
-3)
-
-![Step3](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+![Step2](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_2.jpg?raw=true "Y-Vent Inside")
 
 
-
-4)
-
-![Step4](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+3) Distribute adhesive evenly with spatula. This should create a uniform layer with no pits. Fill any gaps with more adhesive and smooth out with spatula.
 
 
-5) 
+![Step3](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_3.jpg?raw=true "Y-Vent Inside")
+
+4) Lock the cover on output port and align with protrusion on the main body.
+
+![Step4](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_4.jpg?raw=true "Y-Vent Inside")
 
 
-![Step5](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+5) Clean any adhesive leaking out with a paper towel.
 
 
+![Step5](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_5.jpg?raw=true "Y-Vent Inside")
 
-6) 
 
-![Step6](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+6) Apply pressure to the part and leave to try until adhesive is set. Time and pressure will depend on adhesive type. Note the setting and curing time.
+
+
+![Step6](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_6.jpg?raw=true "Y-Vent Inside")
 
 
 ### Double Sided Tape
 
+#### Tools
+- Scissors
+- Scalpel or sharp knife
+- Strong Double-Sided Tape
+- Hot air gun (optional)
 
-1) 
-2) 
-3)
-4)
-5) 
+#### Instructions
+
+1) Apply a single strip of double-sided tape to cover the input port and one arm of the yVent. A single strip should cover the input port, narrowing at the input port, and wedge dividing the yVent into two channels.
+
+ ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_1.jpg?raw=true "Y-Vent Inside")
+
+
+2) Apply second strip to the remaining part of the cover. The two strips should create a small (less than 0.5 mm overlap) to provide optimal sealing.
+
+
+ ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_2.jpg?raw=true "Y-Vent Inside")
+
+
+3) Cut the tape with a scalpel or scissors to align with the edge of the cover.
+
+
+ ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_3.jpg?raw=true "Y-Vent Inside")
+
+
+4) Lock the cover on the output port and align with protrusion on the main body. Remove any protruding tape with a scalpel. The protruding tape can also be removed with a hot air gun (**Note:** Apply a small amount of heat to only melt the tape and not the plastic of the yVent).
+
+
+ ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_4.jpg?raw=true "Y-Vent Inside")
+
+
+5) Apply pressure to the part.
+
+
+ ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_5.jpg?raw=true "Y-Vent Inside")
+
+
+
+### Input Port Mount
+
+The yVent has a standard 1/4 NPT thread on the input port, which can fit a wide variety of connectors (like push to connect, barb). Select the connector most appropriate for your environment (testing, clinical). When inserting the connector apply a small amount of glue to the threads to seal it. 
+
+**Note:** Make sure the connector's edge does not protrude over the floor over the yVent channels. 
+
+**Note:** Make sure that any adhesive applied to the threads does not leak into the input chamber, especially the narrowing after the input port.
+
 
 
 
