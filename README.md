@@ -42,7 +42,7 @@ When pressure is applied to the input terminal of the Y-Vent, the air flow strea
 ## Performance
 
 ### Testing Setup
-
+![COVER](https://github.com/MSwoboda/yvent/blob/master/images/setup.png?raw=true "Y-Vent Inside")
 
 ### Markforged 3D Printed Version [Onyx No Fiber Filament]
 
@@ -58,13 +58,17 @@ When pressure is applied to the input terminal of the Y-Vent, the air flow strea
 ## Components and Modules
 
 ### Main Body
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/mainbody.png?raw=true "Y-Vent Inside")
-The main functional component 
+![BODY](https://github.com/MSwoboda/yvent/blob/master/images/mainbody.png?raw=true "Y-Vent Inside")
+The main functional component of Y-Vent. Consists of main input port for 0.3-2 psi regulated pressure, standard 22mm patient output port, and threaded vent port. The threaded port mates with the PEEP adapter to provide a stanard PEEP recepticle. The threaded port can also be used with a one way HEPA filter to reduce aeorosolization of viral and bacterial particles. 
+
 ### Cover Plate
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/cover.png?raw=true "Y-Vent Inside")
+![COVER](https://github.com/MSwoboda/yvent/blob/master/images/cover.png?raw=true "Y-Vent Inside")
+Cover plate is used to seal all channels and provide basic use information of the device. Special care needs to be taken to glue the cover plate to the main body. This is the most common point of failure during assembly.
 
 ### PEEP Adapter
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/peep.png?raw=true "Y-Vent Inside")
+![PEEP ADAPTER](https://github.com/MSwoboda/yvent/blob/master/images/peep.png?raw=true "Y-Vent Inside")
+
+PEEP adapter theads into the main body vent and provides one 22mm and one 33mm port for stanard PEEP valves. The connector can also connect to a HEPA flter for added functionality.
 
 ## Manufacturing & Assembly
 
