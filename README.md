@@ -14,7 +14,7 @@ Y-Vent is a pressure-triggered, 3D printable, emergency ventilator. The device h
 - Adjustable PIP pressure of 0-50 [cmH2O] 
 - PEEP (0-20[cmH2O]) (w/ PEEP valve)
 - Operating supply 20-140 [cmH2O] pressure source (air regulator or blower)  
-- can be actuated with patient breathing (no risk of asynchrony)
+- Can be actuated with patient breathing (no risk of asynchrony)
 - Regulated inhale/exhale phase (I/E time, I/E ratio can be adjusted by modifying circuit compliance, resistance or by adding a controlled air leak)
 
 ### Risks
