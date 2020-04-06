@@ -63,14 +63,74 @@ The main functional component of Y-Vent. Consists of main input port for 0.3-2 p
 
 ### Cover Plate
 ![COVER](https://github.com/MSwoboda/yvent/blob/master/images/cover.png?raw=true "Y-Vent Inside")
-Cover plate is used to seal all channels and provide basic use information of the device. Special care needs to be taken to glue the cover plate to the main body. This is the most common point of failure during assembly.
+Cover plate is used to seal all channels and provide basic use information of the device. 
+
+**Note:** Special care needs to be taken to glue the cover plate to the main body. This is the most common point of failure during assembly.
 
 ### PEEP Adapter
 ![PEEP ADAPTER](https://github.com/MSwoboda/yvent/blob/master/images/peep.png?raw=true "Y-Vent Inside")
 
-PEEP adapter theads into the main body vent and provides one 22mm and one 33mm port for stanard PEEP valves. The connector can also connect to a HEPA flter for added functionality.
+PEEP adapter theads into the main body vent and provides one 22mm and one 33mm port for stanard PEEP valves. The connector can also connect to a HEPA flter.
 
 ## Manufacturing & Assembly
+
+### Medical Grade Silicone Adhesive Method
+
+This method creates a robust seal between the main body and cover using a medical grade silicone rubber. This is the preferred method of sealing the part.
+
+Tools:
+- Spatula
+- Q-Tip
+- Medical-grade Silicone Adhesive 
+- Paper towel
+
+Instructions:
+
+
+
+1) Remove supports from 3D printed parts.
+
+![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+
+2) 
+
+![Step2](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+
+3)
+
+![Step3](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+
+4)
+
+![Step4](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+5) 
+
+
+![Step5](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+
+6) 
+
+![Step6](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_1.png?raw=true "Y-Vent Inside")
+
+
+### Double Sided Tape
+
+
+1) 
+2) 
+3)
+4)
+5) 
 
 
 
