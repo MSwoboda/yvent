@@ -61,13 +61,13 @@ When pressure is applied to the input terminal of the Y-Vent, the air flow strea
 ## Components and Modules
 
 ### Main Body
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/body.png?raw=true "Y-Vent Inside")
 
 ### Cover Plate
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/cover.png?raw=true "Y-Vent Inside")
 
 ### PEEP Adapter
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/adapter.png?raw=true "Y-Vent Inside")
 
 ## Manufacturing & Assembly
 
