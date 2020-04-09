@@ -169,10 +169,6 @@ The yVent has a standard 1/4 NPT thread on the input port, which can fit a wide 
 
 **Note:** Make sure that any adhesive applied to the threads does not leak into the input chamber, especially the narrowing after the input port.
 
-## Competitive Analysis [opinion by Michał Swoboda]
-
-This project has been created as a direct response to current solutions of 'open-source ventilators' for the COVID-19 pandemic. While the enthusiasm of the engineering community has been commendable, the results of this enthusiasm have been depressing. It is sad to see the brightest minds of the engineering community (MIT) design, develop, and promote a half-baked, student project (eVent . This and many other Arduino-based 'open-source ventilators', while built by smart, hard-working, and well-meaning people, showcase a lack of understanding of medical device design, disregard for risk control, and low-level understanding of the problem. The 'it's better than nothing' attitude fails to notice that integration of a bad technology can have profound negative on the healthcare system. 
-
 ## Failure Reporting
 
 We encourage everyone interested in the project to 3D print and try out the yVent on your own. All you need is a 3D printer, lung model (could be a balloon but ventilator test lungs works best), and a 0.3-2psi pressure source. If you'd like to add PEEP, a PEEP valve is necessary. Please post all problems you enocunter in the Github's issues section along with a description of how the device was printed, the test setup, a detailed description of the problem, and possible solutions.
