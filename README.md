@@ -19,7 +19,7 @@ yVent is a pressure-triggered, 3D printable, emergency ventilator. The device ha
 
 ### Risks
 
-The device is a simple pneumatic oscillator triggered by pressure. It pumps air in to a set threshold, reverses flow, pumps air out to a set threshold and resets. It cannot deliver a set volume of air, trigger alarms, display measurements, clear mucus, or perform many other critical functions of modern-day ventilators.
+The device is a simple pneumatic oscillator triggered by pressure. It pumps air in to a set pressure threshold, reverses flow, pumps air out to a set pressure threshold and resets. It cannot deliver a set volume of air, trigger alarms, display measurements, clear mucus, or perform many other critical functions of modern-day ventilators.
 
 
 ### Failure Modes
@@ -38,21 +38,21 @@ yVent can fail in the following way:
 
 When pressure is applied to the input terminal of the yVent, the air flow stream created by the narrowing in the geometry creates a vortex (Coanda effect) which attaches the stream to the patient output channel. When the flow stream encounters resistance on the output terminal (increased pressure in patient's lungs), the first vortex collapses and the air flow stream redirects to the second output channel (again creating the Coanda effect vortex). In this fludic configuration, air flows from the patient output channel to the output terminal in addition to from the input terminal to the second terminal. This allows for exhale of gas. Once pressure in the patient's lungs reaches the threshold pressure, the second vortex collapses and restarts the cycle. Our design uses a different approach to create the Coanda vortex effect but functionally they are the same. 
 
-
-## Performance
+## Testing and Validation
 
 ### Testing Setup
 ![COVER](https://github.com/MSwoboda/yvent/blob/master/images/setup.png?raw=true "yVent Inside")
 
+
+
 ### Markforged 3D Printed Version [Onyx No Fiber Filament]
 
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_onyx_fil_0125mm_3300mm_1590mm.jpg?raw=true "yVent Inside")
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_onyx_fil_0125mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
 
 ### Prusa MK3 [Hatchbox PLA Gray]
 
-
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_pla_fil_0200mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
 
 ## Components and Modules
@@ -73,6 +73,11 @@ Cover plate is used to seal all channels and provide basic use information of th
 PEEP adapter theads into the main body vent and provides one 22mm and one 33mm port for stanard PEEP valves. The connector can also connect to a HEPA flter.
 
 ## Manufacturing & Assembly
+
+### Explanation
+yVent has been designed to be enitrely 3D printed. However, CAD and STL file folders include both 3D printable versions and a rough version adapted for CNC milling and injection molding (threads removed, holes sized for tapping, overhangs removed).
+
+The design has been printed and tested using Markforged Onyx One and Prusa i3 Mk3 printers (see performance ).
 
 ### Medical Grade Silicone Adhesive Method
 
@@ -159,20 +164,17 @@ This method creates a robust seal between the main body and cover using a medica
  ![Step1](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_tape_5.jpg?raw=true "yVent Inside")
 
 
-
 ### Input Port Mount
 
 The yVent has a standard 1/4 NPT thread on the input port, which can fit a wide variety of connectors (like push to connect, barb). Select the connector most appropriate for your environment (testing, clinical). When inserting the connector apply a small amount of glue to the threads to seal it. 
 
-**Note:** Make sure the connector's edge does not protrude over the floor over the yVent channels. 
+**Note:** Make sure the connector's edge does not protrude over the floor of the yVent channels. 
 
 **Note:** Make sure that any adhesive applied to the threads does not leak into the input chamber, especially the narrowing after the input port.
 
+## Failure Reporting
 
-
-
-## Validation
-
+We encourage everyone interested in the project to 3D print and try out the yVent on your own. All you need is a 3D printer, lung model (could be a balloon but ventilator test lungs work best), and a 0.3-2psi pressure source. If you'd like to add PEEP, a PEEP valve is necessary. Please post all problems you enocunter in the Github's issues section along with a description of how the device was printed, the test setup, a detailed description of the problem, and possible solutions.
 
 ## Literature
 
