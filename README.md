@@ -6,7 +6,7 @@
 
 ## Summary
 
-yVent is a pressure-triggered, 3D printable, emergency ventilator. The device has no moving parts and consits of 2 pieces of plastic. It is designed around an aerodynamic behavior known as the Coandă effect (It is a bistable fluidic amplifier). The device produces cyclical pressure changes, which can support patient breathing, while allowing for patient actuation and eliminating the possibility of dissynchrony.
+yVent is a pressure-triggered, 3D printable, emergency ventilator. The device has no moving parts and consits of 2 pieces of plastic. It is designed around an aerodynamic behavior known as the Coandă effect (It is a bistable fluidic amplifier). The device produces cyclical pressure changes, which can support patient breathing, while allowing for patient actuation and eliminating the possibility of dissynchrony. The device was designed and developed as a last resort ventilator for major clinical centers in Philadelphia.
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/noBG.png?raw=true "yVent Inside")
 
@@ -43,14 +43,12 @@ When pressure is applied to the input terminal of the yVent, the air flow stream
 ### Testing Setup
 ![COVER](https://github.com/MSwoboda/yvent/blob/master/images/setup.png?raw=true "yVent Inside")
 
-
-
-### Markforged 3D Printed Version [Onyx No Fiber Filament]
+### Results - Markforged 3D Printed Version [Onyx No Fiber Filament | 0.125mm layer]
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_onyx_fil_0125mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
 
-### Prusa MK3 [Hatchbox PLA Gray]
+### Results - Prusa MK3 [Hatchbox PLA Gray | 0.200mm layer | 0.2 SPEED MK3 Prusa Slicer Profile]
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_pla_fil_0200mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
