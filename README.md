@@ -76,7 +76,7 @@ Figure 5: 20 cmH2O PEEP.
 
 ### Results - Prusa MK3 [Hatchbox PLA Gray | 0.200mm layer | 0.2 SPEED MK3 Prusa Slicer Profile]
 
-yVent printed in PLA shows similar behavior to the Onyx version. However, we believe there may be more variability between prints. We will post results when we test and validate several PLA devices.
+yVent printed in PLA shows similar behavior to the Onyx version. However, we believe there may be more variability between prints. We will post results when we test and validate several PLA devices. (Video of test: https://www.youtube.com/watch?v=HLaus3BIPC4)
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_pla_fil_0200mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
@@ -99,6 +99,8 @@ Cover plate is used to seal all channels and provide basic use information of th
 PEEP adapter theads into the main body vent and provides one 22mm and one 33mm port for stanard PEEP valves. The connector can also connect to a HEPA flter.
 
 ## Manufacturing & Assembly
+
+Assembly Video: https://www.youtube.com/watch?v=hZ9rezzCuwM  
 
 ### Explanation
 yVent has been designed to be enitrely 3D printed. However, CAD and STL file folders include both 3D printable versions and a rough version adapted for CNC milling and injection molding (threads removed, holes sized for tapping, overhangs removed).
