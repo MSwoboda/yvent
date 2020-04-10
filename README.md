@@ -42,12 +42,41 @@ When pressure is applied to the input terminal of the yVent, the air flow stream
 ### Testing Setup
 ![COVER](https://github.com/MSwoboda/yvent/blob/master/images/setup.png?raw=true "yVent Inside")
 
-### Results - Markforged 3D Printed Version [Onyx No Fiber Filament | 0.125mm layer]
+The testing setup aims to replicate a hospital air pressure supply of ~50 psi output connected to a 0-2 psi regulator. The pressure supply is connected to a 3 gallon tank to equalize pressure changes and flow. This is useful for testing and prototyping but not necessary for end-device as long as 2 psi regulator can provide sufficient flow to the yVent. The regulator pressure is monitored with a handheld pressure gauge.
+
+The yVent connects to the output of the 2psi regulator and a lung simulator (MAQUET Test Lung 190 1L). The second output terminal (non-patient output) connects to a PEEP valve. The flow into the lung and pressure in the lung are monitored and recorded. The following data has been collected using this setup for two version of the yVent. Software of the measurement station can be found in the Measurement folder. Figures presented summarize the behavior of the yVent for different input pressures ranging from 40cmH2O to 120 cmH2O. If no measurement is present for a a given input pressure, it can be assumed that the device cannot work under these conditions (ex. peak inhale pressure of 20 cmH2o and 20 cmH2o PEEP causes oscillations).
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_onyx_fil_0125mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
+### Results - Markforged 3D Printed Version [Onyx No Fiber Filament | 0.125mm layer]
+
+
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/NO PEEP.jpg?raw=true "yVent Inside")
+
+Figure 1: No PEEP. 
+
+
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/PEEP 5.jpg?raw=true "yVent Inside")
+
+Figure 2: 5 cmH2O PEEP. 
+
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/PEEP 10.jpg?raw=true "yVent Inside")
+
+Figure 3: 10 cmH2O PEEP. 
+
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/PEEP 15.jpg?raw=true "yVent Inside")
+
+Figure 4: 15 cmH2O PEEP. 
+
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/PEEP 20.jpg?raw=true "yVent Inside")
+
+Figure 5: 20 cmH2O PEEP. 
+
+
 
 ### Results - Prusa MK3 [Hatchbox PLA Gray | 0.200mm layer | 0.2 SPEED MK3 Prusa Slicer Profile]
+
+yVent printed in PLA shows similar behavior to the Onyx version. However, we believe there may be more variability between prints. We will post results when we test and validate several PLA devices.
 
 ![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/test/yvent_alpha_pla_fil_0200mmlayer_3300mm_1590mm.jpg?raw=true "yVent Inside")
 
@@ -76,7 +105,7 @@ yVent has been designed to be enitrely 3D printed. However, CAD and STL file fol
 
 The design has been printed and tested using Markforged Onyx One and Prusa i3 Mk3 printers (see testing sections).
 
-### Medical Grade Silicone Adhesive Method
+### Medical Grade Silicone Adhesive Method [preferred]
 
 This method creates a robust seal between the main body and cover using a medical grade silicone rubber. This is the preferred method of sealing the part.
 
@@ -122,7 +151,7 @@ This method creates a robust seal between the main body and cover using a medica
 ![Step6](https://github.com/MSwoboda/yvent/blob/master/images/assembly/yv_glue_6.jpg?raw=true "yVent Inside")
 
 
-### Double Sided Tape
+### Double Sided Tape [prototyping]
 
 #### Tools
 - Scissors
