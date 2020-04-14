@@ -2,13 +2,11 @@
  
 ***Disclaimer:** yVent is not a medical device. yVent must not replace FDA/CE-mark ventilation support. yVent is an experimental device which should only be considered in emergency scenarios as an alternative to death due to equipment shortage.*
 
-**Note:** This is a work in progress. We will release first CAD files and manufacturing instructions after we are satisifed with device performance in tests.  
-
 ## Summary
 
 yVent is a pressure-triggered, 3D printable, emergency ventilator. The device has no moving parts and consits of 2 pieces of plastic. It is designed around an aerodynamic behavior known as the Coandă effect (It is a bistable fluidic amplifier). The device produces cyclical pressure changes, which can support patient breathing, while allowing for patient actuation and eliminating the possibility of dissynchrony. The device was designed and developed as a last resort ventilator for major clinical centers in Philadelphia.
 
-![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/noBG.png?raw=true "yVent Inside")
+![YVENT](https://github.com/MSwoboda/yvent/blob/master/images/yvent_front_page.png?raw=true "yVent Inside")
 
 ### Features
 - Adjustable PIP pressure of 0-50 [cmH2O] 
